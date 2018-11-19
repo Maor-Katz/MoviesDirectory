@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+  background-color: aqua;
+  padding-bottom: 3px;
+  
+}
+body {
+  background-image: url(/public/orange.jpg)
+}
+.header{background-color: blueviolet}
+.moviesList{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+.movieDetails{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex: 1;
+  max-width: 150px;
+}
+.movieImage{ width: 150px; height:250px}
+.imgModal{width: 150px; height:250px; position: relative; left: 40px;;}
+.movieTitle{ color: blueviolet; height: 35px;}
+.movieId{ color: blueviolet}
+.movieYear{ color: blueviolet}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.addMovieButton{width: 170;}
+.modal-main {
+  position:fixed;
+  width: 25%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background-color: blueviolet;
+  /* text-align: -webkit-center; */
+  padding: 15px;
+  
+  
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+.modalTitle{display: block;} .modalYear{display: block;} .modalName{display: block;} .modalId{display: block;}
+.modal-main input {display: inline;}
+.title-line{display: flex; } .year-line{display: flex; justify-content: center;} .name-line{display: flex; justify-content: center;} .id-line{display: flex; justify-content: center;} 
+.modal-textbox{position: relative; left: 50px; flex: 2}
+.fieldName{position: absolute; left: 50px; font-style: italic; flex: 1;}
+.enterMovie{color: blueviolet;}  
+button {
+    position: relative; bottom: -4px;
+    padding: 15px 25px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 150px;
+  }
+  button:hover {background-color:coral;}
+
+button:active {
+  background-color: coral;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+  .modal-main button{background-color: coral; }
+  .modal-main button:hover{background-color: blueviolet; }
+  .notValid{border-color: red}
+  .addMovieButton{
+  font-size: 22px;
+  }
+  .displayNone{display: none;}
+  
+  @media only screen and (max-width: 1000px) {
+   .modal-main {
+     background-color: aqua;
+     width: 40%;
+   }
+
+
+}
