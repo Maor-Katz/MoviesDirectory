@@ -2,7 +2,6 @@
   text-align: center;
   background-color: aqua;
   padding-bottom: 3px;
-  
 }
 body {
   background-image: url(/public/orange.jpg)
@@ -91,11 +90,17 @@ button:active {
   font-size: 22px;
   }
   .displayNone{display: none;}
-  
+.closeIcon{
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  cursor: pointer;
+}  
   @media only screen and (max-width: 1000px) {
    .modal-main {
      background-color: aqua;
      width: 40%;
+     position: absolute;
    }
 
 
