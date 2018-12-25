@@ -20,5 +20,4 @@ npm start
 ```
 npm run build
 ```
-Public URL:
-#https://moviesdirectory-50f41.firebaseapp.com/
+# Public URL: https://moviesdirectory-50f41.firebaseapp.com/
