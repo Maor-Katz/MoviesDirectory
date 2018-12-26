@@ -6,7 +6,7 @@
 body {
   background-image: url(/public/orange.jpg)
 }
-.header{background-color: blueviolet}
+.header{background-color: blueviolet; margin-top:auto;}
 .moviesList{
     padding-left: 100px;
     padding-right: 100px;
